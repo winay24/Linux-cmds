@@ -1,0 +1,5 @@
+ls 	--> 	list of parent directory
+ls -a	-->	-a gives hidden files(ex : .git)
+ls -l	-->	-l gives all properties such as (read, write permisssion and root)
+-----------------------------------------------------------------------------------
+pwd 	--> 	present working directory
