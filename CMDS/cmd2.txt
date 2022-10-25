@@ -1,11 +1,12 @@
 								[FILE RELATED COMMANDS]
 
 touch 	[file_name] [path]	-->	creates file in path mentionrd or current
-cat	[file_name]		-->	display file content
+cat	[file_name]			-->	display file content
 cat>>[filename]			-->	we can add lines from prompt into file
 rm	[filename/path]		-->	delete file
-mv	[f1]	[f2]		-->	rename f1 as f2 and move from one folder to other
+mv	[f1]	[f2]			-->	rename f1 as f2 and move from one folder to other
 cp	[source] [dest]		-->	we can copy files or folders
+wc	[-c/-l/-w]			-->	count of lines,words,characters
 ------------------------------------------------------------------------------------------
 vim editor:
 
@@ -14,17 +15,30 @@ after opening in vi:
 i			-->	to get into insert mode helpful to write
 esc			-->	to get out from insert mode
 :wq			-->	save and exit from vim
-:q			-->	exit without saving
-dd			-->	delete a line in vim
+:q!			-->	exit without saving
+dd			-->	delete a line in vim cut
 yy			-->	copy lines
 p			-->	paste line
 contrl+r		-->	redo changes
 u			-->	undo changes
+/"word"		-->	to search in vi editor
 -----------------------------------------------------------------------------------------
 sleep [time]		--> 	pause time seconds processing
 exit			-->	close the current terminal
 hostname		-->	machine name
 mail -s "Subj" <mail id> 	-->	to send mail from terminal
+
+-----------------------------------------------------------------------------------------
+if a command is executed if you want to monitor log file continously(dynamic way)
+tail -f "path"
+-----------------------------------------------------------------------------------------
+work on multiple files:
+vim -o file1 file2 --> open two files vertically
+vim -O file1 file2 --> open two files horizontally
+cntrl+w to switch file
+
+
+
 
 
 

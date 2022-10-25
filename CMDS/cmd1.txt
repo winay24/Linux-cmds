@@ -1,4 +1,4 @@
-								[DIRECTORY RELATED COMMANDS]
+ 								[DIRECTORY RELATED COMMANDS]
 
 ls 			--> 	list of parent directory
 ls -a			-->	-a gives hidden files(ex : .git)
@@ -34,6 +34,7 @@ echo [content]		-->	print one line string
 history			-->	history pf cmds used on terminal
 tree			-->	folder structure
 Head -n			-->	n is no of lines display n lines from begining and "tail" from bottom
+head -10 | tail -10	-->	print first and last 10 lines
 grep -i [pattern] [file]	-->	-i for skip case and grep helpful to search pattern in files
 wget [file]	[URL]	-->	TO DOWNLOAD FILES FROM URL/BROWSER
 
