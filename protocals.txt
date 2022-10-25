@@ -1,0 +1,14 @@
+one linux machine and multiple users working on it. how to login?
+using putty or ssh/telnet(should be configure on linux before login)
+ssh/telnet ==> run in background 24/7 (process(program execution) running in background called daemon)
+ssh is encrypted one and telnet is not encrypted chance of hacking
+
+ssh vs telnet?
+security
+ssh means secure shell
+ssh is helpful to connect to server remotely so we can access server by using ssh protocol securely
+
+installation linux os?
+1)vagrant 2)git 3)oracle vm
+
+

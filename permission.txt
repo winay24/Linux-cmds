@@ -1,0 +1,31 @@
+ls -l 	gives the all details of folder/file
+----------------------------------------------------------
+details given by above cmd:
+ex: -rw-r--r-- 1 z032450 1049089 750 Oct 25 19:05 linuxos.txt
+-------------------------------------------------------------
+1) d ---> directory   - ---> file
+-------------------------------------------------------------
+:tells folder or file
+permission ->read,write and execute
+read ->r ,write->w ,execute->e
+current-user ,group ,other-users    ((cu)rwx | (g)rw- | (ou)r--)
+			chmod-cmd usage
+scenario-1
+if you want change permission
+chmod u+rwx g+rw- o+r-e  adding
+chmod o-x   --> removes execute permission for others  
+scenario-2
+u-4
+g-2
+o-1
+ugo - 7
+u-o - 5
+--o - 1
+chmod 777 --> gives all permission for current,group,other users
+----------------------------------------------------------------
+
+userid
+groupid
+size
+date 
+file name

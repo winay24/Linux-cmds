@@ -1,0 +1,11 @@
+step1: git,vagrant and oracle vm virtial machine download and install
+step2: enable virtualisation
+step3: open git terminal from start and create vagrant1 folder and change path the run (vagrant init)in terminal
+git bash
+mkdir vagrant1
+cd vagrant1
+vagrant init
+step4:open file created in vagrant1 and edit
+config.vm.box = "ubuntu/xenial64"
+step5:vagrant.exe up
+step6 vagrant ssh
