@@ -1,0 +1,23 @@
+Operating System:
+which will interacts with hardware with given input  Ex:linux,windows and macos
+
+Linux OS:
+hardware(cpu,ram)->kernal(detects plugin/hardware)->shell(user interacts)->utilities/cmds/apps
+
+Folder == diectory in linux
+
+Directory structure:
+
+/ (highest)->	/home --> home directory of user(user1 data,user2 data acc to login)
+		/var  --> log files (bug tracing)
+		/etc  --> configuration files
+		/tmp  --> temporary files(temparory work)
+		/opt  --> third party(java,python)
+		/lib  --> library files
+		/root --> admin of linux/unrestricted access
+		/bin  --> storing binaries(exes,dlls)and drives
+
+
+logging into Linux:
+putty --> tool to connect to remote machine
+open->give ip and select SSH ->username->password
