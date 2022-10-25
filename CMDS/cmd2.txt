@@ -20,6 +20,13 @@ yy			-->	copy lines
 p			-->	paste line
 contrl+r		-->	redo changes
 u			-->	undo changes
+-----------------------------------------------------------------------------------------
+sleep [time]		--> 	pause time seconds processing
+exit			-->	close the current terminal
+hostname		-->	machine name
+mail -s "Subj" <mail id> 	-->	to send mail from terminal
+
+
 
 
 
